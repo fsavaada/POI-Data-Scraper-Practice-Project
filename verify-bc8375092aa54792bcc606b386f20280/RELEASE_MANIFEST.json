@@ -1,0 +1,293 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 127,
+      "sha256": "ae04fae0c45029a887f855cc40e9223771e42705bf9013bd6aa3e4daf2777c11"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "bytes": 475,
+      "sha256": "2ebb8edfb68559e8f481a052526850a0f54c79f44aadf6763380d1148e0b9096"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 911,
+      "sha256": "51eb5584e7db5e0a9187cf73a8c0894071306a0091a2e6b5e10a50466304ab13"
+    },
+    {
+      "path": "Ctrip_Spider/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Ctrip_Spider/collect_province_top20.py",
+      "bytes": 8974,
+      "sha256": "ebc044e64d32d82f74932823435edb496140acebce3bd799c24159f748e7bf33"
+    },
+    {
+      "path": "Ctrip_Spider/food_search.py",
+      "bytes": 1898,
+      "sha256": "f6525b37f901a8af5887a9fd4809b1339cfdab57203ac430d7cb1b77eede1451"
+    },
+    {
+      "path": "Ctrip_Spider/log.py",
+      "bytes": 4626,
+      "sha256": "0bcc744dec6b07ff7fd08fb35cfc59ee6ce932ffaa639f6d828c4815f0b89f38"
+    },
+    {
+      "path": "Ctrip_Spider/request_optimizer.py",
+      "bytes": 2099,
+      "sha256": "c8464ad55ac308c26b06c0548fdffda505aa6b2d361bb06eb26b9938a69b3c61"
+    },
+    {
+      "path": "Ctrip_Spider/sight_comments.py",
+      "bytes": 17285,
+      "sha256": "c28dbbd9997641c27e72c5f7c5e93c987ddab21777ca58484286b7c849919679"
+    },
+    {
+      "path": "Ctrip_Spider/sight_detail.py",
+      "bytes": 13583,
+      "sha256": "21300cc4013a09e78fd03be34888234b8e7350e681d0eee14d1689869deee471"
+    },
+    {
+      "path": "Ctrip_Spider/sight_id.py",
+      "bytes": 3410,
+      "sha256": "e662a5dca66236c8d5834de4cd09bf7fda6b52a5dd8a84666a742614ddd7a86a"
+    },
+    {
+      "path": "Ctrip_Spider/sight_list.py",
+      "bytes": 11212,
+      "sha256": "f70e0a42f4114d030851f37286f76cd6570e416298f15ee893a969779d508b7a"
+    },
+    {
+      "path": "Datasets/ctrip_province_top20.csv",
+      "bytes": 24861,
+      "sha256": "2fbada50afb97ff2c803e9d3961c0062c97b787344f0cb49422beb1b2bc2d6fe",
+      "columns": [
+        "景点名称",
+        "省份",
+        "景点门票价格",
+        "评分"
+      ],
+      "rows": 676
+    },
+    {
+      "path": "Datasets/ctrip_province_top350.csv",
+      "bytes": 813538,
+      "sha256": "020ed2af3c7daf096786d74385380ebe3beac1f817570f057c4b539dc732ca7c",
+      "columns": [
+        "景点名称",
+        "省份",
+        "市区",
+        "详细地点",
+        "景点门票价格",
+        "评分"
+      ],
+      "rows": 11900
+    },
+    {
+      "path": "Datasets/dianping_guangzhou_10_shops.csv",
+      "bytes": 1176,
+      "sha256": "cde0efc23c29f5699b803138b94771f68165b4b5b439e9cebcf58f4058ecf02e",
+      "columns": [
+        "店铺名",
+        "店铺具体地点",
+        "评分",
+        "人均消费（元/人）",
+        "店铺特色菜"
+      ],
+      "rows": 10
+    },
+    {
+      "path": "Datasets/dianping_national/administrative_divisions.json",
+      "bytes": 136996,
+      "sha256": "83b7536f853ad16beb4d37b92890a3fd7bb9d33d4f37e7c8885fb948749a9bc4"
+    },
+    {
+      "path": "Datasets/dianping_national/city_coverage.csv",
+      "bytes": 25948,
+      "sha256": "b4d7ce2e22c369fcd910a95504d4cff7b25ce8a980ffa23d53d94416c1f20061",
+      "columns": [
+        "省份",
+        "城市",
+        "城市ID",
+        "目录上榜数量",
+        "已获取数量",
+        "状态",
+        "错误"
+      ],
+      "rows": 372
+    },
+    {
+      "path": "Datasets/dianping_national/city_directory.json",
+      "bytes": 34208,
+      "sha256": "8fde0eebdf2a70289466148869597c5897bdbe3d36f89a869241eca79a869cf8"
+    },
+    {
+      "path": "Datasets/dianping_national/district_evidence.json",
+      "bytes": 113605,
+      "sha256": "c0b8c982c5c3808d1dc375eecdce582f519e0fd6e2c5be251c8401670e670a0a"
+    },
+    {
+      "path": "Datasets/dianping_national/quality_report.json",
+      "bytes": 498,
+      "sha256": "b386183b84f3628aa7781dfc3f000f76fc3916675350a2040385f373cfe5690d"
+    },
+    {
+      "path": "Datasets/dianping_national/README.md",
+      "bytes": 3153,
+      "sha256": "8a816ae6d84dee57209130929ce3ec452c71d2b9cbfd6b8e6225aa34bad65495"
+    },
+    {
+      "path": "Datasets/dianping_national/restaurants.csv",
+      "bytes": 1261670,
+      "sha256": "485be2d1549dd75c9a534cbff5152c78507ab87a00a171f934006abc32b0ee7b",
+      "columns": [
+        "省份",
+        "城市",
+        "区县",
+        "店铺名",
+        "店铺具体地点",
+        "评分",
+        "人均消费（元/人）",
+        "店铺特色菜",
+        "地址完整性",
+        "地址状态",
+        "区县依据",
+        "店铺ID",
+        "榜单来源",
+        "详情来源",
+        "区县来源"
+      ],
+      "rows": 2571
+    },
+    {
+      "path": "Datasets/dianping_national/restaurants.json",
+      "bytes": 2690168,
+      "sha256": "da3742b6b688fac11deff026fbac9f73d3a8ada572227ec4f46a0a3b4d0a3e48"
+    },
+    {
+      "path": "Datasets/manifest.json",
+      "bytes": 3103,
+      "sha256": "b37c2e8b79960ecc433ef0d22465efc4893236e4024f8bad91495a937ee3de43"
+    },
+    {
+      "path": "Datasets/README.md",
+      "bytes": 1117,
+      "sha256": "6e1426a4668b061a1166c29cf47550e7b7eee9c85ad01e300ae035a16d3b98ce"
+    },
+    {
+      "path": "Dianping_Spider/__init__.py",
+      "bytes": 82,
+      "sha256": "9a5248ac4347125e1160b7f6b3afeaa09f075c79664cf10bd3487e1531ff9a5b"
+    },
+    {
+      "path": "Dianping_Spider/__main__.py",
+      "bytes": 79,
+      "sha256": "26aebe94179f56514af2e9b82f925967ffe56a3a6dcd24e199a180c0f8f4d138"
+    },
+    {
+      "path": "Dianping_Spider/collect_national.py",
+      "bytes": 14691,
+      "sha256": "06ffb57d7687254f9226975aa2a4a902d95f80cd1be944730a480143385435dc"
+    },
+    {
+      "path": "Dianping_Spider/enrich_districts.py",
+      "bytes": 2723,
+      "sha256": "64980c3f9ea5acf1f8acc5dec86ed6a0c790dd3f44b44e6fbb3ee91d9537d7ca"
+    },
+    {
+      "path": "Dianping_Spider/finalize.py",
+      "bytes": 7790,
+      "sha256": "711207dfecebd22d8b50fdc8effa6bad5bab7c344b85ada0b41deb5a3528a6b0"
+    },
+    {
+      "path": "Dianping_Spider/retry_missing.py",
+      "bytes": 2968,
+      "sha256": "a002d8db280bdaff21b09bbb2a1b9223eb534d2d1272a5fc4ed8678376efd1f7"
+    },
+    {
+      "path": "Dianping_Spider/run.py",
+      "bytes": 583,
+      "sha256": "eacf8dc9d8aefbb7f323e9db299ce5fd24dce47364ef7c4dbb0ac9a8441dd4e5"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 2452,
+      "sha256": "9b121a41c610e61f95749fccf1d79ff90c84ab650e0d22fcca202e2775343554"
+    },
+    {
+      "path": "docs/PUBLISHING.md",
+      "bytes": 2060,
+      "sha256": "d98145a375464ceef9899b07399a61d8e140551b7af017fb786616c0a3401ebe"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 593,
+      "sha256": "77c23cd8b75efb20ee383b0efa0c46926902c1aaf768663d84b5931759ea1d40"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5562,
+      "sha256": "3555e7719b75130121e701025fd779a54022d13254d597d643d5269a27eda5ee"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 196,
+      "sha256": "47d9ef8a3f9987e6d777cd407b33058145fd399ff2b68b7e07027c51e66e9023"
+    },
+    {
+      "path": "scripts/build_release.py",
+      "bytes": 3671,
+      "sha256": "f26782c1d02750c664a1fe3824d2443b734c0173a737f30a15272951bad7810f"
+    },
+    {
+      "path": "scripts/check_repository.py",
+      "bytes": 3683,
+      "sha256": "4a667b53245d4462212ed80785aee7979cbb7fd1246ab4ab6aac886ee85cfa62"
+    },
+    {
+      "path": "scripts/restore_coverage.py",
+      "bytes": 2590,
+      "sha256": "27fdc8e21686982f5368627645b05373aff6fedb06c422ab0157a8be506ef51c"
+    },
+    {
+      "path": "tests/__init__.py",
+      "bytes": 72,
+      "sha256": "2112524e2c07795a30052e9194718117cc2649736222633fc23abd6e4b8faa24"
+    },
+    {
+      "path": "tests/test_ctrip.py",
+      "bytes": 2245,
+      "sha256": "c69fc66a6551520204e05d2dc219d1cc214c298d2ab523e1535395ce1a1cb942"
+    },
+    {
+      "path": "tests/test_dianping.py",
+      "bytes": 2511,
+      "sha256": "87917a0b59b46058a78012499051b0cd250167f99e98973f2dcd7256fcb11901"
+    },
+    {
+      "path": "tests/test_food_search.py",
+      "bytes": 1825,
+      "sha256": "8b42f5370423796966a13fbafe83713867495496f9e71de669571a828cd49a30"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "bytes": 875,
+      "sha256": "71fee86293176e3f21e7acd10638f66f5aae40063079c7bc62c0247715bb33e1"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1038,
+      "sha256": "26da175ab2c2cbed84591da85c993120109e44f5a532f3649eb229ba44915949"
+    }
+  ],
+  "checks": {
+    "ctrip_attractions": 11900,
+    "dianping_restaurants": 2571,
+    "dianping_cities": 218,
+    "coverage_rows": 372,
+    "district_unverified": 105
+  }
+}

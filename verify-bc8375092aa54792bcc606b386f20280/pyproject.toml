@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lifelens-crawlers"
+version = "0.1.0"
+description = "Ctrip attractions and Dianping must-eat restaurant collectors"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.32,<3", "beautifulsoup4>=4.12,<5"]
+
+[project.scripts]
+ctrip-collect = "Ctrip_Spider.collect_province_top20:main"
+dianping-collect = "Dianping_Spider.run:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["Ctrip_Spider*", "Dianping_Spider*"]
+exclude = ["tests*", "Ctrip_Spider.test*"]

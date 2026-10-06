@@ -1,0 +1,107 @@
+{
+  "description": "Unmodified collected result snapshots and public reference metadata.",
+  "files": [
+    {
+      "path": "Datasets/ctrip_province_top20.csv",
+      "bytes": 24861,
+      "sha256": "2fbada50afb97ff2c803e9d3961c0062c97b787344f0cb49422beb1b2bc2d6fe",
+      "columns": [
+        "景点名称",
+        "省份",
+        "景点门票价格",
+        "评分"
+      ],
+      "rows": 676
+    },
+    {
+      "path": "Datasets/ctrip_province_top350.csv",
+      "bytes": 813538,
+      "sha256": "020ed2af3c7daf096786d74385380ebe3beac1f817570f057c4b539dc732ca7c",
+      "columns": [
+        "景点名称",
+        "省份",
+        "市区",
+        "详细地点",
+        "景点门票价格",
+        "评分"
+      ],
+      "rows": 11900
+    },
+    {
+      "path": "Datasets/dianping_guangzhou_10_shops.csv",
+      "bytes": 1176,
+      "sha256": "cde0efc23c29f5699b803138b94771f68165b4b5b439e9cebcf58f4058ecf02e",
+      "columns": [
+        "店铺名",
+        "店铺具体地点",
+        "评分",
+        "人均消费（元/人）",
+        "店铺特色菜"
+      ],
+      "rows": 10
+    },
+    {
+      "path": "Datasets/dianping_national/restaurants.csv",
+      "bytes": 1261670,
+      "sha256": "485be2d1549dd75c9a534cbff5152c78507ab87a00a171f934006abc32b0ee7b",
+      "columns": [
+        "省份",
+        "城市",
+        "区县",
+        "店铺名",
+        "店铺具体地点",
+        "评分",
+        "人均消费（元/人）",
+        "店铺特色菜",
+        "地址完整性",
+        "地址状态",
+        "区县依据",
+        "店铺ID",
+        "榜单来源",
+        "详情来源",
+        "区县来源"
+      ],
+      "rows": 2571
+    },
+    {
+      "path": "Datasets/dianping_national/restaurants.json",
+      "bytes": 2690168,
+      "sha256": "da3742b6b688fac11deff026fbac9f73d3a8ada572227ec4f46a0a3b4d0a3e48"
+    },
+    {
+      "path": "Datasets/dianping_national/city_coverage.csv",
+      "bytes": 25948,
+      "sha256": "b4d7ce2e22c369fcd910a95504d4cff7b25ce8a980ffa23d53d94416c1f20061",
+      "columns": [
+        "省份",
+        "城市",
+        "城市ID",
+        "目录上榜数量",
+        "已获取数量",
+        "状态",
+        "错误"
+      ],
+      "rows": 372
+    },
+    {
+      "path": "Datasets/dianping_national/quality_report.json",
+      "bytes": 498,
+      "sha256": "b386183b84f3628aa7781dfc3f000f76fc3916675350a2040385f373cfe5690d"
+    },
+    {
+      "path": "Datasets/dianping_national/administrative_divisions.json",
+      "bytes": 136996,
+      "sha256": "83b7536f853ad16beb4d37b92890a3fd7bb9d33d4f37e7c8885fb948749a9bc4"
+    },
+    {
+      "path": "Datasets/dianping_national/city_directory.json",
+      "bytes": 34208,
+      "sha256": "8fde0eebdf2a70289466148869597c5897bdbe3d36f89a869241eca79a869cf8"
+    },
+    {
+      "path": "Datasets/dianping_national/district_evidence.json",
+      "bytes": 113605,
+      "sha256": "c0b8c982c5c3808d1dc375eecdce582f519e0fd6e2c5be251c8401670e670a0a"
+    }
+  ]
+}
